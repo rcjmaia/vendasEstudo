@@ -10,7 +10,7 @@ namespace WebApplication1.Application.Services
 
         public SaleService(ISalesRepository salesRepository)
         {
-            _salesRepository = salesRepository;
+            _salesRepository = salesRepository;//teste
         }
        
     }
