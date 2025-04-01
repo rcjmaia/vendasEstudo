@@ -290,3 +290,4 @@ D:\renato\dotnet\vendas\backend\VendasApi\WebApplication1\bin\Debug\net8.0\runti
 D:\renato\dotnet\vendas\backend\VendasApi\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\renato\dotnet\vendas\backend\VendasApi\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\renato\dotnet\vendas\backend\VendasApi\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\renato\dotnet\vendas\backend\VendasApi\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json

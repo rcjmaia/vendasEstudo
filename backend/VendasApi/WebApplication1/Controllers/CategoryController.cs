@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Application.Interfaces;
 using WebApplication1.Domain.Entities;
+using WebApplication1.DTOs;
 using WebApplication1.Infrastructure.Data;
 
 namespace WebApplication1.Controllers
@@ -23,16 +24,20 @@ namespace WebApplication1.Controllers
         }
 
         // GET: api/Category
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Category>>> GetCategories()
+        [HttpGet("Get")]
+        public async Task<ActionResult<ResponseApi<List<Category>>>> GetCategories()
         {
             var categories = await _categoryService.GetAll();
+            //if (categories.Data == null)
+            //{
+            //    return NotFound();
+            //}
             return Ok(categories);
         }
 
         // GET: api/Category/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Category>> GetCategory(int id)
+        public async Task<ActionResult<ResponseApi<Category>>> GetCategoryById(int id)
         {
             var category = await _categoryService.GetById(id);
 
@@ -42,6 +47,14 @@ namespace WebApplication1.Controllers
             }
 
             return category;
+        }
+
+        // DELETE: api/Category/5
+        [HttpDelete("Delete/{id}")]                
+        public async Task<ActionResult<ResponseApi<List<Category>>>> DeleteCategory(int id)
+        {
+            var data = await _categoryService.Delete(id);
+            return Ok(data);
         }
         /*
         // PUT: api/Category/5
@@ -85,26 +98,9 @@ namespace WebApplication1.Controllers
 
             return CreatedAtAction("GetCategory", new { id = category.Id }, category);
         }
+        */
 
-        // DELETE: api/Category/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCategory(int id)
-        {
-            var category = await _context.Categories.FindAsync(id);
-            if (category == null)
-            {
-                return NotFound();
-            }
 
-            _context.Categories.Remove(category);
-            await _context.SaveChangesAsync();
 
-            return NoContent();
-        }
-
-        private bool CategoryExists(int id)
-        {
-            return _context.Categories.Any(e => e.Id == id);
-        }*/
     }
 }

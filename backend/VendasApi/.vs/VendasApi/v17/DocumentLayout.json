@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\application\\services\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,20 +47,8 @@
       "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\infrastructure\\repositories\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,14 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\dtos\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dtos\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36CD7FFA-73F5-4814-A957-7F80039D050F}|WebApplication1\\WebApplication1.csproj|d:\\renato\\dotnet\\vendas\\backend\\vendasapi\\webapplication1\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,59 +130,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Application\\Services\\ProductService.cs",
+              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "WebApplication1\\Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:31:17.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SaleItemService.cs",
+              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\SaleItemService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Application\\Services\\SaleItemService.cs",
+              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\SaleItemService.cs",
+              "RelativeToolTip": "WebApplication1\\Application\\Services\\SaleItemService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:31:45.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\SaleService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Application\\Services\\SaleService.cs",
+              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\SaleService.cs",
+              "RelativeToolTip": "WebApplication1\\Application\\Services\\SaleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:31:31.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:00:59.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T18:29:55.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwFgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T19:01:49.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Application\\Interfaces\\ICategoryService.cs",
               "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\ICategoryService.cs",
               "RelativeToolTip": "WebApplication1\\Application\\Interfaces\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:26:25.247Z"
+              "WhenOpened": "2025-03-29T19:26:25.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Application\\Services\\CategoryService.cs",
               "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\CategoryService.cs",
               "RelativeToolTip": "WebApplication1\\Application\\Services\\CategoryService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCYAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:31:05.445Z"
+              "WhenOpened": "2025-03-29T19:31:05.445Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "WebApplication1\\Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:27:35.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ISaleItemService.cs",
-              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\ISaleItemService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Application\\Interfaces\\ISaleItemService.cs",
-              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\ISaleItemService.cs",
-              "RelativeToolTip": "WebApplication1\\Application\\Interfaces\\ISaleItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:29:05.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ISaleService.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\ISaleService.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Application\\Interfaces\\ISaleService.cs",
@@ -194,44 +250,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Application\\Services\\ProductService.cs",
-              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "WebApplication1\\Application\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ISaleItemService.cs",
+              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\ISaleItemService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Application\\Interfaces\\ISaleItemService.cs",
+              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\ISaleItemService.cs",
+              "RelativeToolTip": "WebApplication1\\Application\\Interfaces\\ISaleItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:31:17.708Z"
+              "WhenOpened": "2025-03-29T19:29:05.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SaleItemService.cs",
-              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\SaleItemService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Application\\Services\\SaleItemService.cs",
-              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\SaleItemService.cs",
-              "RelativeToolTip": "WebApplication1\\Application\\Services\\SaleItemService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "WebApplication1\\Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:31:45.531Z"
+              "WhenOpened": "2025-03-29T19:27:35.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SaleService.cs",
-              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\SaleService.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Application\\Services\\SaleService.cs",
-              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Application\\Services\\SaleService.cs",
-              "RelativeToolTip": "WebApplication1\\Application\\Services\\SaleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:31:31.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Domain\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Domain\\Interfaces\\ICategoryRepository.cs",
@@ -243,31 +286,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "WebApplication1\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAwC8AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:01:49.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "SaleRepository.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\SaleRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Infrastructure\\Repositories\\SaleRepository.cs",
               "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\SaleRepository.cs",
               "RelativeToolTip": "WebApplication1\\Infrastructure\\Repositories\\SaleRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBJwBgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T19:14:35.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SaleItemRepository.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\SaleItemRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Infrastructure\\Repositories\\SaleItemRepository.cs",
@@ -279,19 +310,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Infrastructure\\Repositories\\ProductRepository.cs",
               "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "WebApplication1\\Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBcAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T19:12:02.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ISalesRepository.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Domain\\Interfaces\\ISalesRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Domain\\Interfaces\\ISalesRepository.cs",
@@ -303,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ISaleItemRepository.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Domain\\Interfaces\\ISaleItemRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Domain\\Interfaces\\ISaleItemRepository.cs",
@@ -315,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Domain\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Domain\\Interfaces\\IProductRepository.cs",
@@ -327,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ResponseApi.cs",
               "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\DTOs\\ResponseApi.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DTOs\\ResponseApi.cs",
@@ -336,30 +367,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T23:21:34.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:00:59.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T18:29:55.062Z"
             },
             {
               "$type": "Document",
@@ -429,7 +436,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20250329184313_NewTables2.cs",
               "ToolTip": "D:\\renato\\dotnet\\vendas\\backend\\VendasApi\\WebApplication1\\Migrations\\20250329184313_NewTables2.cs",
               "RelativeToolTip": "WebApplication1\\Migrations\\20250329184313_NewTables2.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA8wCMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T18:43:13.102Z"
             },
@@ -492,10 +499,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T17:52:17.618Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

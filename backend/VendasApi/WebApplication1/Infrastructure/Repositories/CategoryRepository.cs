@@ -22,7 +22,7 @@ namespace WebApplication1.Infrastructure.Repositories
             try
             {
                 var data = await _appDbContext.Categories.ToListAsync();
-
+                
                 return new ResponseApi<List<Category>>(data);
             }
             catch (Exception ex)
@@ -86,7 +86,7 @@ namespace WebApplication1.Infrastructure.Repositories
             try
             {
                 var categoryDelete = await _appDbContext.Categories.FindAsync(id);
-                
+                return ResponseApi<List<Category>>.ErrorResponse("errrrooooo");
                 if (categoryDelete == null)
                 {
                     return ResponseApi<List<Category>>.ErrorResponse("Registro não encontrado. Não foi possível remover!");
