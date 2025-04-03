@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-white: #fff;
+    --color_black: #000;
+    --color-primary: #ff5959;
+    --color-secondary: #00b63d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /*background-color: var(--color-white);usando a cord padrao criada em :root*/
+    background-color: rgba(255,255,255,0.75)/*cor branca com 75% de transparencia*/;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    /*position: fixed;/*qdo o usuario rolar a pagina, ficara fixo... ira rolar junto*/
+    position: sticky;/*ao contrario do fixed, a stick reserva um espaço no topo da pagina e tb rola junto*/;
+    width: 100%;
+    z-index: 10;
+    top:0;
+}
+
+header > nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+header a {
+    color: var(--color-primary);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header > nav a:hover {
+    text-decoration: underline;
+}
+
+.bg-img {
+    width: 100%;
+    min-height: 100vh; /*deixa mais responsivo para nao qubrar a imagem*/
+    object-fit: cover; /*deixa mais responsivo. a imagem se adapta a tela do dispositivo*/
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+    position: absolute;/*vai ficar em cima da imagem. e a diferenca para o fixed é q ele nao rola junto com a pagina*/
+    top:0;
+}
+
+main > h2 {
+    color: var(--color-primary);
+    font-size: 4rem;
+    text-shadow: 0 3px 3px var(--color_black);
+    -webkit-text-stroke: 1px var(--color_black);
+    margin-bottom: 2rem;
+}
+
+.call-to-action {
+    display: flex;
+    gap: 3rem;    
+}
+
+.call-to-action > a {
+    border: 2px solid var(--color-primary);
+    border-radius: .5rem;
+    border-color: var(--color-white);
+    padding: 1rem;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.call-to-action a:hover {
+    background-color: var(--color-secondary);
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 1rem;
+}
+
+footer > nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.5rem;
+}
+
+footer a {
+    color: var(--color-white);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

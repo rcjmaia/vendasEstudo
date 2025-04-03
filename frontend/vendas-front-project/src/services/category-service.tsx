@@ -16,8 +16,8 @@ export const fetchCategories = async () => {
     return resp.data;
 }
 
-export const createCategory = async (category : Category) => {
-    const resp = await api.post<ApiResponse>('/Category/CreateCategory', category)
+export const insertCategory = async (category : Category) => {
+    const resp = await api.post<ApiResponse>('/Category/InsertCategory', category)
     return resp.data
 }
 

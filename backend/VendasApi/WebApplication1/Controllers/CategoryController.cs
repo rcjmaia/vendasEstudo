@@ -56,51 +56,19 @@ namespace WebApplication1.Controllers
             var data = await _categoryService.Delete(id);
             return Ok(data);
         }
-        /*
-        // PUT: api/Category/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCategory(int id, Category category)
+
+        [HttpPut("UpdateCategory")]
+        public async Task<ActionResult<ResponseApi<List<Category>>>> Update(Category category)
         {
-            if (id != category.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(category).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!CategoryExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            var data = await _categoryService.Update(category);
+            return Ok(data);    
         }
 
-        // POST: api/Category
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<Category>> PostCategory(Category category)
+        [HttpPost("InsertCategory")]
+        public async Task<ActionResult<ResponseApi<List<Category>>>> Insert(Category category)
         {
-            _context.Categories.Add(category);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetCategory", new { id = category.Id }, category);
+            var data = await _categoryService.Insert(category);
+            return Ok(data);
         }
-        */
-
-
-
     }
 }

@@ -11,12 +11,19 @@ interface Category {
 }
 
 const CategoryList: React.FC = () => {
+  const [categorySel, setCategorySel] = useState<Category | null>(null)
   const [category, setCategory] = useState<Category[]>([]);
   const [carregando, setCarregando] = useState<boolean>(true);
   const [erro, setErro] = useState<string | null>(null);
   const [modalOpen, setModalOpen] = useState(false)
 
-  const Delete = async (categoryParam : Category) => {      
+  const OpenEditMode = (categorySel : Category | null) => {
+    setCategorySel(categorySel);
+    setModalOpen(true);
+  };
+  
+  const Delete = async (categoryParam: Category) => {
+    if (window.confirm('Tem certeza que deseja excluir este registro?')) {
       try {
         const { data, message, success } = await deleteCategory(categoryParam)
         if (!success) {
@@ -27,8 +34,8 @@ const CategoryList: React.FC = () => {
       } catch (erro) {
         setErro(`Ocorreu um erro: ` + erro);
       } finally {
-        
       }
+    }
   }
 
   useEffect(() => {
@@ -41,13 +48,13 @@ const CategoryList: React.FC = () => {
           setCategory(data);
         }
       } catch (erro) {
-        if (axios.isAxiosError(erro)) 
+        if (axios.isAxiosError(erro))
           setErro(`Ocorreu um erro: ` + erro);
       } finally {
         setCarregando(false);
       }
     };
-    
+
     GetCategory();
   }, []);
 
@@ -58,12 +65,12 @@ const CategoryList: React.FC = () => {
   /*if (erro) {
     return <p>{erro}</p>;
   }*/
-  
+
   return (
     <div className='list table-wrapper'>
       <h2>Lista de Categorias</h2>
-      <br></br>      
-      
+      <br></br>
+
       {erro && <p>{erro}</p>}
 
       <table className='table'>
@@ -84,22 +91,24 @@ const CategoryList: React.FC = () => {
                 {cat.name}
               </td>
               <td className='actions'>
-                <button className='edit-btn'><FaEdit></FaEdit></button>
+                <button className='edit-btn' onClick={() => OpenEditMode(cat)}><FaEdit></FaEdit></button>
                 <button className='delete-btn' onClick={() => Delete(cat)}><FaTrashAlt></FaTrashAlt></button>
               </td>
             </tr>
           ))}
         </tbody>
-      </table>      
-      
-      <button className='btn' onClick={() => setModalOpen(true)}>Adicionar</button>
+      </table>
+
+      <button className='btn' onClick={() => OpenEditMode(null)}>Adicionar</button>
 
       {modalOpen && (
-        <CategoryCadModal 
-          closeModal = {() => {
-            setModalOpen(false)
-          }}
-        />)}
+                    <CategoryCadModal 
+                      closeModal={() => {
+                        setModalOpen(false) 
+                        setCategorySel(null)}}
+                      refreshData={(data) => {setCategory(data)}}
+                      categorySel={categorySel}
+                    />)}
     </div>
   );
 };

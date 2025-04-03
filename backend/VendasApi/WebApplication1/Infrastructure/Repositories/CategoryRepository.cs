@@ -67,8 +67,8 @@ namespace WebApplication1.Infrastructure.Repositories
         {
             try
             {
-                Category categoryPost = new() { Name = category.Name };
-
+                Category categoryPost = new() { Id = category.Id, Name = category.Name };
+                
                 _appDbContext.Categories.Update(categoryPost);
                 await _appDbContext.SaveChangesAsync();
 
@@ -86,7 +86,7 @@ namespace WebApplication1.Infrastructure.Repositories
             try
             {
                 var categoryDelete = await _appDbContext.Categories.FindAsync(id);
-                return ResponseApi<List<Category>>.ErrorResponse("errrrooooo");
+                
                 if (categoryDelete == null)
                 {
                     return ResponseApi<List<Category>>.ErrorResponse("Registro não encontrado. Não foi possível remover!");

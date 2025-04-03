@@ -1,0 +1,48 @@
+/*pinta o segundo elemtno*/
+li:nth-child(2){
+    color:red;
+}
+
+/*pinta de dois em dois*/
+li:nth-child(2n){
+    color: blue;
+}
+
+/*pinta de 3 em 3*/
+li:nth-child(2n+1){
+    color: green;
+}
+/*par e impar even*/
+li:nth-child(odd){
+    color: purple;
+}
+
+li:hover{
+    background-color: aqua;
+}
+
+input:focus{
+    background-color: blue;
+}
+
+li::before {
+    content: "(antes) ";
+    font-size: 2rem;
+  }
+  
+li::after {
+    content: " (depois)";
+    
+}
+
+li:first-child {
+    color: rgb(255, 174, 0);
+}
+
+li:last-child {
+    color: rgb(255, 0, 179);
+}
+
+li:not(:last-child) {
+    color: rgb(0, 204, 255);
+}
