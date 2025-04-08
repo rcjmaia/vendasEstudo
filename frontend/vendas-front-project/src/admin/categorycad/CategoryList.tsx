@@ -53,6 +53,10 @@ const CategoryList: React.FC = () => {
       } finally {
         setCarregando(false);
       }
+
+      return () => {
+        console.log('🧹 Limpando: componente desmontou');        
+      };
     };
 
     GetCategory();

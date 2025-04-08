@@ -76,6 +76,10 @@ const CategoryCadModal = ({ closeModal, refreshData, categorySel }: CategoryCadM
             setId(0)
             setName('')
         }
+
+        return () => {
+            console.log('🧹 Limpando: componente desmontou');
+        };
     }, [categorySel])
 
     return (

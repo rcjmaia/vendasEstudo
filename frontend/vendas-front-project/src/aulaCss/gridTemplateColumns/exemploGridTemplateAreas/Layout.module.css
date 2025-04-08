@@ -1,0 +1,38 @@
+.layout {
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "menu content"
+      "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  
+  .header {
+    grid-area: header;
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .menu {
+    grid-area: menu;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .content {
+    grid-area: content;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
