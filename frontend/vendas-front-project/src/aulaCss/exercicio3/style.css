@@ -44,6 +44,9 @@ h2 {
     text-transform: uppercase;
 }
 
+/* O seletor .genres > li em CSS utiliza o combinador de filho direto (>), 
+que seleciona todos os elementos <li> que são filhos diretos de um elemento com a classe genres. 
+Isso significa que apenas os <li> que estão imediatamente dentro de .genres serão estilizados. */
 .genres > li {
     display: inline-block;
     margin-top: 2rem;

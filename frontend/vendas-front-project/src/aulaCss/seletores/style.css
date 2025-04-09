@@ -17,6 +17,9 @@ nav a {
 }
 
 /* seletor de filhos */
+/* O seletor .genres > li em CSS utiliza o combinador de filho direto (>), 
+que seleciona todos os elementos <li> que são filhos diretos de um elemento com a classe genres. 
+Isso significa que apenas os <li> que estão imediatamente dentro de .genres serão estilizados. */
 nav > a {
     display: block;
     color: #f5a623;
@@ -53,6 +56,15 @@ input + input {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+/* O seletor input ~ input no CSS utiliza o combinador de irmãos gerais (~) 
+para aplicar estilos a todos os elementos <input> que são irmãos (ou seja, 
+compartilham o mesmo elemento pai) e aparecem após outro <input>, não necessariamente imediatamente após.*/
+input ~ input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 h2 + p {
     padding: 30px;
 }

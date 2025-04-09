@@ -17,4 +17,23 @@ body {
   
   
   
+  .box {
+    background-color: #4547c7;
+    border: 2px solid #272727;
+    height: 10rem;
+    width: 10rem;
+  }
   
+  .box.red {
+    background-color: #ff665c;
+  }
+  
+  .box.yellow {
+    background-color: #f9ff58;
+    height: 20rem;
+  }
+  
+  .box.blue {
+    background-color: #5255eb;
+    height: 15rem;
+  }
